@@ -16,8 +16,8 @@ SOFT ORANGE : #fdce6a
 */
 
 .logo_brand {
-    min-height: 9rem;
-    max-width: 9rem;
+    min-height: 10rem;
+
   
 }
 
@@ -102,7 +102,7 @@ body:before {
     width: 100vw;
     z-index: 0;
     /* background-image: linear-gradient(to top, rgba(34,30,63,0.839), rgba(34,30,63,0.839)), url('assets/images/bg.svg?v=7e2e91b5'); */
-    background-image: linear-gradient(to bottom, #fdce6acc, #e08e29cd), url('assets/images/bg.svg?v=7e2e91b5');
+    background-image: linear-gradient(to bottom, #ffffff, #F5F9E9), url('assets/images/bg.svg?v=7e2e91b5');
     background-position: 0% 0%, bottom;
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;
@@ -141,17 +141,17 @@ body:after {
 }
 
 #icons02 .n01 {
-    background-color: #8a171bb9;
+    background-color: #8a171a;
 
 }
 #icons03 .n01 {
-    background-color: #8a171bb9;
+    background-color: #8a171a;
 }
 #icons05 .n01 {
-    background-color: #8a171bb9;
+    background-color: #8a171a;
 }
 #icons05 .n0youtube {
-    background-color: #8a171bb9;
+    background-color: #8a171a;
    
 }
 
