@@ -106,10 +106,10 @@ body:before {
     background-position: 0% 0%, bottom;
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;
-    background-color: #f6951ec8;
+    background-color: #ebf0de74;
 }
 body:after {
-    background-color: #f6951ec8;
+    background-color: #e8ecdf5f;
     content: '';
     display: block;
     height: 100%;
