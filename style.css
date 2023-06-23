@@ -15,18 +15,40 @@ SOFT ORANGE : #fdce6a
 
 */
 
-.logo_brand {
-    min-height: 10rem;
-
-  
+.flex_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.border_line {
+    width: 80%;
+    height: 2px;
+    background: #231f1e2c;
+    border-radius: 10px;
+}
+
+@font-face {
+    font-family: 'TanseekModernProArabic';
+    src: url('./TanseekModernProArabic-Bold.ttf') format('truetype');
+  }
+
+.logo_brand {
+   
+    max-width: 10rem;
+    padding: 2px;
+    max-height: 12rem;
+    border-radius: 100%;
+
+}
+
 
 * {
     font-family: 'Changa', sans-serif !important;
    
 }
 .youtube_icon {
-    max-height: 1.5rem !important;
+    max-height: 1.3rem !important;
 }
 
 
@@ -119,18 +141,19 @@ div.innger_flex {
     font-family: 'Inter', sans-serif;
     letter-spacing: 0.025rem;
     width: calc(100% + 0.025rem);
-    font-size: 0.9em;
+    font-size: 0.85em;
     line-height: 1.875;
     font-weight: 200;
    
 }
 
 #text12 {
-    color: #231f1e;
-    font-family: 'Karla', sans-serif;
+    color: #231f1e;   
+    
     letter-spacing: -0.075rem;
     width: 100%;
-    font-size: 2em;
+    font-size:  28px !important;
+    font-weight: 200 !important;
     line-height: 1;
     font-weight: 700;
 }
@@ -156,7 +179,7 @@ body:before {
     width: 100vw;
     z-index: 0;
     /* background-image: linear-gradient(to top, rgba(34,30,63,0.839), rgba(34,30,63,0.839)), url('assets/images/bg.svg?v=7e2e91b5'); */
-    background-image: linear-gradient(to bottom, #f5f9e9aa, #f2f6e55d), url('assets/images/bg_2.jpg');
+    background-image: linear-gradient(to bottom, #f5f9e9aa, #f2f6e55d), url('https://i0.wp.com/alhokama.com.sa/wp-content/uploads/2018/02/Screen-Shot-1439-05-17-at-6.26.51-PM.png?fit=2226%2C1494&ssl=1');
     /* background-image: linear-gradient(to bottom, #ffb255 0%, #f6951e 100%), url('assets/images/bg.svg?v=7e2e91b5'); */
     
     background-position: 0% 0%, bottom;
